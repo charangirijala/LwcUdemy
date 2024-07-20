@@ -1,0 +1,17 @@
+<template>
+  <lightning-card icon-name="standard:account" variant="base" title="Slider">
+    <div class="slds-var-m-around_medium">
+      <lightning-slider
+        label="Volume"
+        max="100"
+        min="0"
+        size="large"
+        step="1"
+        type="horizontal"
+        value={val}
+        variant="standard"
+        onchange={changeHandler}
+      ></lightning-slider>
+    </div>
+  </lightning-card>
+</template>

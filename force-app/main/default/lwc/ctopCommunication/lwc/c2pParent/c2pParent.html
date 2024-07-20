@@ -1,0 +1,15 @@
+<template>
+  <lightning-card icon-name="standard:account" variant="narrow">
+    <div slot="title">c2p Communication</div>
+    <div class="slds-var-m-around_medium">
+      <lightning-button
+        variant="brand"
+        label="Show Modal"
+        onclick={handleClick}
+      ></lightning-button>
+      <template lwc:if={loadModal}>
+        <c-ctop-modal onclose={closeHandler}></c-ctop-modal
+      ></template>
+    </div>
+  </lightning-card>
+</template>
