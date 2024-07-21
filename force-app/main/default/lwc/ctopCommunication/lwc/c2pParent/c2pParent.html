@@ -7,6 +7,7 @@
         label="Show Modal"
         onclick={handleClick}
       ></lightning-button>
+      <h1>{msg}</h1>
       <template lwc:if={loadModal}>
         <c-ctop-modal onclose={closeHandler}></c-ctop-modal
       ></template>

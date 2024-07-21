@@ -1,0 +1,25 @@
+<template>
+  <lightning-card icon-name="standard:account" variant="base">
+    <div slot="title">Custom Labels</div>
+    <div>
+      <!-- Card Body  -->
+      <h1>{loremLabel}</h1>
+      <h1>Form factor:{formFactor}</h1>
+    </div>
+    <div class="slds-var-m-around_medium">
+      <h1>User Details</h1>
+      <div lwc:if={isGuest}>
+        <p>User is Guest</p>
+      </div>
+      <div lwc:else>
+        <p>User Id: {userId}</p>
+      </div>
+    </div>
+
+    <div class="slds-var-m-around_medium">
+      <h1>Record Details</h1>
+      <p>Record Id: {recordId}</p>
+      <p>Record API Name: {objectApiName}</p>
+    </div>
+  </lightning-card>
+</template>

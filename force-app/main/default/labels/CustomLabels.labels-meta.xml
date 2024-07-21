@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomLabels xmlns="https://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>loremOne</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>loremOne</shortDescription>
+        <value
+    >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis odio, blandit hendrerit sodales vel, fringilla sed tellus. Nulla eget euismod leo. Praesent vel efficitur tellus. Mauris tincidunt lorem quis neque laoreet efficitur. Aliquam diam risus, luctus eu tincidunt venenatis, lobortis convallis orci. Nullam sit amet elit nisl. Maecenas blandit venenatis iaculis.
+
+Morbi egestas non odio in pharetra. Phasellus a lectus aliquet massa iaculis dignissim. Donec convallis arcu eu tristique viverra. Maecenas eu accumsan metus, eu varius odio. Quisque congue eu sapien a sagittis. Curabitur risus dui, vehicula vestibulum quam non, laoreet volutpat neque. Maecenas in felis eros. Morbi a vestibulum orci. Sed eu consectetur erat, vulputate maximus quam. Nam diam mauris, lacinia ut mattis in, vulputate et ligula. Donec tincidunt elementum ex at facilisis.</value>
+    </labels>
+</CustomLabels>

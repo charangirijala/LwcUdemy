@@ -1,0 +1,7 @@
+<apex:page lightningStylesheets="true">
+     <apex:slds/>
+     <div>
+          
+     </div>
+     <script></script>
+</apex:page>
